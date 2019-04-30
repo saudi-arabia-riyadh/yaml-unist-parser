@@ -16,6 +16,12 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
+"@babel/runtime@^7.4.3":
+  version "7.4.4"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.4.4.tgz#dc2e34982eb236803aa27a07fea6857af1b9171d"
+  dependencies:
+    regenerator-runtime "^0.13.2"
+
 "@types/jest@23.3.14":
   version "23.3.14"
   resolved "https://registry.yarnpkg.com/@types/jest/-/jest-23.3.14.tgz#37daaf78069e7948520474c87b80092ea912520a"
@@ -24,9 +30,9 @@
   version "6.14.6"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-6.14.6.tgz#31df045b4c7618ff74d84f542fc3d29445dd566b"
 
-"@types/yaml@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@types/yaml/-/yaml-1.0.1.tgz#79ecc2a6c77485c815d4a98ac3fa5d8c23c1695b"
+"@types/yaml@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@types/yaml/-/yaml-1.0.2.tgz#bba080d64714c6ef3eaa023e235dacd2cfa3c938"
 
 JSONStream@^1.0.4:
   version "1.3.5"
@@ -3115,6 +3121,10 @@ regenerator-runtime@^0.11.0:
   version "0.11.1"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
 
+regenerator-runtime@^0.13.2:
+  version "0.13.2"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.2.tgz#32e59c9a6fb9b1a4aff09b4930ca2d4477343447"
+
 regex-cache@^0.4.2:
   version "0.4.4"
   resolved "https://registry.yarnpkg.com/regex-cache/-/regex-cache-0.4.4.tgz#75bdc58a2a1496cec48a12835bc54c8d562336dd"
@@ -3934,9 +3944,11 @@ yallist@^3.0.0, yallist@^3.0.2:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-3.0.3.tgz#b4b049e314be545e3ce802236d6cd22cd91c3de9"
 
-yaml@1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/yaml/-/yaml-1.0.3.tgz#6eed55f60edb3ac1402283fba94c91b6a0a026f7"
+yaml@1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/yaml/-/yaml-1.5.0.tgz#1d879dd069ce1036041c23229cb5d7ef47a58ec6"
+  dependencies:
+    "@babel/runtime" "^7.4.3"
 
 yargs-parser@10.x:
   version "10.1.0"
